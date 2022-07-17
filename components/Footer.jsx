@@ -79,7 +79,22 @@ const Footer = () => {
       <div className="flexCenter w-full mt-5 border-t dark:border-nft-black-1 border-nft-gray-1 sm:px-4 px-16">
         <div className="flexBetween flex-row w-full minmd:w-4/5 sm:flex-col mt-7">
           <p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base">
-            Developed by @ferdous19 and @arafat
+            Developed by{" "}
+            <a
+              className="text-blue-600 hover:text-blue-700 transition duration-300 ease-in-out"
+              href="https://github.com/ferdous-mahmud"
+              target="_blank"
+            >
+              Ferdous
+            </a>{" "}
+            &&nbsp;
+            <a
+              className="text-blue-600 hover:text-blue-700 transition duration-300 ease-in-out"
+              href="https://github.com/ArafatHossain403"
+              target="_blank"
+            >
+              Arafat
+            </a>
           </p>
           <div className="flex flex-row sm:mt-4">
             {[
